@@ -41,13 +41,13 @@ graph TD
 ```
 npm install
 ```
-1. Set up your environment variables in a .env file:
+3. Set up your environment variables in a .env file:
 ```
 STRIPE_SECRET_KEY=your_stripe_secret_key_here
 STRIPE_WEBHOOK_SECRET=your_stripe_webhook_secret_here
 ```
-1. Update the TARGET_PAYMENT_LINKS array in the code with your specific Payment Link IDs
-1. Ensure your Stripe webhook is configured to send checkout.session.completed events to your server
+4. Update the TARGET_PAYMENT_LINKS array in the code with your specific Payment Link IDs
+5. Ensure your Stripe webhook is configured to send checkout.session.completed events to your server
 
 ## Usage
 - Run the Server
