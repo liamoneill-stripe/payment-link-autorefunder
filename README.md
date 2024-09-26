@@ -63,11 +63,11 @@ If a valid client_reference_id (starting with 'sfx_') is provided, the subscript
 
 The solution provides detailed logging, including:
 
-Full session object details
-Reason for refund (if applicable)
-Subscription cancellation confirmation
-Refund details
-All logs include clickable links to the relevant objects in the Stripe Dashboard for easy investigation and management.
+- Full session object details
+- Reason for refund (if applicable)
+- Subscription cancellation confirmation
+- Refund details
+- All logs include clickable links to the relevant objects in the Stripe Dashboard for easy investigation and management.
 
 ## Dependencies
 - express
