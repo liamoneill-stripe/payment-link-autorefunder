@@ -1,4 +1,4 @@
-# Stripe Payment Link Auto-Refund Solution
+# Stripe Amazing Payment Link Auto-Refund Solution
 
 This project provides an automated solution for handling Stripe Payment Link transactions. It automatically refunds charges and cancels subscriptions if a valid `client_reference_id` is not supplied by the customer.
 
